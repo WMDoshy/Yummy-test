@@ -1,0 +1,194 @@
+:root{
+    --mainBg : #000000f2;
+}
+body{
+    overflow: hidden;
+    /* overflow: visible; */
+}
+.loading{
+    position: fixed;
+    inset: 0;
+    background-color: var(--mainBg);
+    z-index: 9999;
+}
+.main {
+    background-color: var(--mainBg);
+ }
+.nav-bar2{
+    width: 25%;
+    z-index: 999;
+    background-color: var(--mainBg);
+} 
+.nav-bar{
+    width: fit-content !important;
+    height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+}
+.nav-bar i {
+    font-size: 25px;
+    cursor: pointer;
+}
+.moving-part{
+    /* background-color: var(--mainBg); */
+    height: 100vh;
+    /* width: 60%; */
+}
+.moving-part div{
+    flex-direction: column;
+}
+.moving-part div a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #f9f6f6;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icons{
+    flex-direction: row;
+}
+.icons i{
+    cursor: pointer;
+}
+
+
+/* Start Main part */
+.item{
+    overflow: hidden;
+}
+.layer{
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all  1s;
+}
+.layer h2{
+    font-size: 2rem;
+    transition: all  1s;
+    
+    top: 50%;
+    font-weight: 200;
+}
+.layer:hover{
+    top: 0px;
+}
+.item:hover .layer{
+    top: 0px;
+}
+.item:hover .layer h2{
+    top: 50%;
+    transition-delay: 0.7s;
+}
+
+
+/*  inderadieb=nts Page */
+.mealDetails{
+    background-color: var(--mainBg);
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item{
+    width: fit-content !important;
+    height: fit-content !important;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #155724 !important;
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+}
+.Source a , .youtube a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.Source{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.Source:hover{
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+.youtube{
+    background-color: #F70000;
+    border-color: #F70000;
+}
+.youtube:hover{
+    color: #fff;
+    background-color: #F70000;
+    border-color: #F70000;
+}
+
+
+
+
+/* Start searchPage section */
+body{
+    background-color: var(--mainBg);
+}
+.searchPage{
+    /* background-color: var(--mainBg); */
+    width: 100%;
+    height: 100vh;
+    /* max-height: 100vh; */
+}
+.searchPage input{
+    background-color: transparent !important;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+}
+.searchPage input:hover{
+    background-color: transparent;
+}
+.inputs{
+    top: 5px;
+}
+/* End searchPage section */
+
+
+
+.citem{
+    overflow: hidden;
+}
+
+
+
+/* Area section */
+.fa-solid{
+    color: #e65a50ab;
+}
+
+
+
+/* ind */
+.fa-bowl-food{
+    color: #9ee650ab;
+}
+
+
+/* cont section */
+.cont button{
+    cursor: pointer;
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+    
+}
+.cont button:hover{
+    cursor: pointer;
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+}
+
+/* .cont button:hover{
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+} */
